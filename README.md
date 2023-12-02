@@ -1,14 +1,14 @@
 ## Perfect Pitch
-The scope and depth of the Automated Musical Transcription (AMT) field remains a pressing concern for its researchers, particularly due to the multi-varied and intricate nature of music. As such, strategies that have shown success in the literature often narrow their attention to specific aspects within the AMT domain. This project applies recent Machine Learning research to the specific objective of pitch estimation, a fundamental property of music, using a deep convoluted neural network to extract audio signal parameters for accurate pitch estimation of <strong>monophonic piano</strong> audio files.
+The scope and depth of the Automated Musical Transcription (AMT) field remains a pressing concern for its researchers, particularly due to the multi-varied and intricate nature of music. As such, strategies that have shown success in the literature often narrow their attention to specific aspects within the AMT domain. This project applies recent Machine Learning research to the specific objective of pitch estimation, a fundamental property of music, using a deep convoluted neural network to extract audio signal parameters for accurate pitch estimation of **monophonic piano** audio files.
 
 Key Highlights:
-- **Dataset:** [Nsyth](https://magenta.tensorflow.org/datasets/nsynth#format)
-- **Model:** A deep convolutional neural network.
-- **Training Accuracy:** 92.15%.
-- **Validation Accuracy:** 74.69%.
-- **Testing Accuracy:** 70.81% 
-- **Additional Dataset (Organ Instruments):** 59.38% accuracy.
-
+- Dataset: [Nsyth](https://magenta.tensorflow.org/datasets/nsynth#format) 
+- Model: A deep convolutional neural network.
+- Training Accuracy: **92.15%**
+- Validation Accuracy: **74.69%**
+- Testing Accuracy: **70.81%** 
+- Additional Dataset (Organ Instruments): **59.38%**
+  
 ## Model Architecture Overview
 ![Model Architecture](https://github.com/jioh-kim/ML-Audio-to-Pitch/assets/77854386/fe86a57e-dac3-42f0-a6b4-e3b19f7f7a49)
 
